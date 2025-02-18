@@ -13,7 +13,7 @@ export const ReportCard = ({ reportName }: ReportCardProps) => {
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-gray-100">
           <FileDown className="h-5 w-5 text-purple-400" />
-          Last Call Report
+          EHR Report
         </CardTitle>
       </CardHeader>
       <CardContent>
