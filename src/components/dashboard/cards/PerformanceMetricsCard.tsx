@@ -6,21 +6,21 @@ import { Progress } from "@/components/ui/progress";
 export const PerformanceMetricsCard = () => {
   const metrics = [
     {
-      title: "Average Call Duration",
+      title: "Crop LiveStock",
       value: "4:30",
       progress: 75,
       icon: Clock,
       trend: "+5%",
     },
     {
-      title: "Customer Satisfaction",
+      title: "Market Saturation",
       value: "92%",
       progress: 92,
       icon: ThumbsUp,
       trend: "+2%",
     },
     {
-      title: "Resolution Rate",
+      title: "Crop price",
       value: "88%",
       progress: 88,
       icon: TrendingUp,
@@ -33,7 +33,7 @@ export const PerformanceMetricsCard = () => {
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-gray-100">
           <BarChart2 className="h-5 w-5 text-cyan-400" />
-          Performance Metrics
+          Crop Insights
         </CardTitle>
       </CardHeader>
       <CardContent>

@@ -11,12 +11,12 @@ export const KnowledgeBaseCard = () => {
   const [articles] = useState([
     {
       id: 1,
-      title: "Common Insurance Claims Process",
+      title: "Crop Assistance",
       category: "Claims",
     },
     {
       id: 2,
-      title: "Customer Service Best Practices",
+      title: "Soil and Fertilizers assistance ",
       category: "Service",
     },
     {

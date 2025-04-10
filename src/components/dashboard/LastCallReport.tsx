@@ -16,7 +16,7 @@ export const LastCallReport = ({ phoneNumber, customerId = "CUS-001" }: LastCall
     <div className="mt-6 border rounded-lg p-4">
       <div className="flex items-center justify-between">
         <div className="space-y-1">
-          <h3 className="text-lg font-medium">Automated generated EHR</h3>
+          <h3 className="text-lg font-medium">Automatic Farmer Report</h3>
           <p className="text-sm text-muted-foreground">Customer ID: {customerId}</p>
         </div>
         <Button

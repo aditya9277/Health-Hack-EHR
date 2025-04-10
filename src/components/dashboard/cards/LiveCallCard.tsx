@@ -67,7 +67,7 @@ export const LiveCallCard = ({ currentSentiment, callDuration, formatTime, phone
         <div className="space-y-6">
           <div className="space-y-2">
             <div className="flex items-center justify-between">
-              <h3 className="font-medium text-white">Customer Sentiment</h3>
+              <h3 className="font-medium text-white">Farmer Sentiment</h3>
               <span className={`text-sm font-medium ${
                 currentSentiment > 70 ? "text-green-600" :
                 currentSentiment > 40 ? "text-yellow-600" :

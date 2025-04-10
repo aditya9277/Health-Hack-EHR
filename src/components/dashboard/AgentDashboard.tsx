@@ -184,7 +184,6 @@ const AgentDashboard = () => {
             <div className="lg:row-span-1">
               <PerformanceMetricsCard />
             </div>
-            <SmartRemindersCard />
             <CallHistoryCard />
             <KnowledgeBaseCard />
             {lastCallReport && (
@@ -193,7 +192,6 @@ const AgentDashboard = () => {
               </div>
             )}
             <div className="md:col-span-2 lg:col-span-1">
-              <SentimentAnalysisCard />
             </div>
             <div className="md:col-span-2 lg:col-span-1">
               <CallbackSchedulerCard />
