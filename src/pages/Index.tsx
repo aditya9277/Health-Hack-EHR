@@ -93,7 +93,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-32">
           <div className="max-w-4xl mx-auto text-center space-y-8">            
             <h1 className="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 leading-tight">
-              AI for Electronic Health Records
+              AI for Medical Assistance
             </h1>
             
             <h2 className="text-2xl text-gray-300 max-w-2xl mx-auto">
